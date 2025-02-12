@@ -1,0 +1,37 @@
+DEPTH = 18; -- The size of memory in words
+WIDTH = 16; -- The size of data in bits
+ADDRESS_RADIX = HEX; -- The radix for address values
+DATA_RADIX = BIN; -- The radix for data values
+CONTENT -- start of (address : data pairs)
+%
+addi $t0, $t1, 10 
+andi $t1, $t1, 1    
+andi $t2, $t2, 0    
+ori $t3, $t3, 1     
+
+
+beq $t0, $t1, even     
+
+odd:
+    sb $t3, $t2, 0 
+    j end_program   
+
+even:
+    sb $t2, $t2,  0  
+    jal end_program   
+
+end_program:
+sub $t1, $t1, $t1
+%
+BEGIN
+02: 1000000001001010; -- 804A
+03: 1010001001000001; -- A241
+04: 1010010010000000; -- A480
+05: 1011011011000001; -- B6C1
+06: 1111000001000011; -- F043
+07: 0001011010000000; -- 1680
+08: 0110000000001011; -- 600B
+09: 0001010010000000; -- 1480
+0A: 0111000000001011; -- 700B
+0B: 0000001001001001; -- 0249
+END

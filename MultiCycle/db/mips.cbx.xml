@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mips">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|booth:inst8|lpm_add_sub1:inst10|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|booth:inst8|lpm_constant0:inst11|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|lpm_mux1:inst10|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_5oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_constant3:inst23|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux4:inst31|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_84e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux6:inst20|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_onc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|booth:inst8|lpm_counter0:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_r3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|lpm_constant0:inst12|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux6:inst21|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_onc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|CSA:inst7|lpm_mux0:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_pnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|Dmem:inst4|LPM_RAM_DQ:inst1|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_00e1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|Icache:inst2|LPM_RAM_DQ:inst1|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_0vf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_constant1:inst1|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_rf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux4:inst24|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_84e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux4:inst33|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_84e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|booth:inst8|lpm_add_sub0:inst9|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_aeh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALUcontrol:inst3|lpm_mux5:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_rnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|CSA:inst8|lpm_mux0:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_pnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux4:inst29|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_84e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux4:inst30|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_84e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux7:inst22|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_nnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|registerfile:inst34|lpm_mux3:inst39|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_g4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|CSA:inst4|lpm_mux0:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_pnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALU:inst|booth:inst8|lpm_mux2:inst6|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_cpc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|ALUcontrol:inst3|lpm_constant2:inst2|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_5e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|lpm_mux4:inst28|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_84e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiCycleDebug|registerfile:inst34|lpm_mux3:inst38|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_g4e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
